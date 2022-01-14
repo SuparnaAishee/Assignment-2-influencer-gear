@@ -7,16 +7,17 @@
 ---------------*/
 body{
     margin-top: 10px;
-    margin-left: 10px;
-   padding-right: 15px;
+    margin-left: 5%;
+   padding-right: 5%;
 }
 *{
     margin: 5px;
-    padding-left: 5px;
+    /*padding-left: 5px;*/
     box-sizing: border-box;
 }
 .title{
    padding-top: 5px;
+   padding-left: 2%;
 }
 nav{
     font-family: 'Cabin', sans-serif;
@@ -37,3 +38,89 @@ nav ul li a{
     text-decoration: none;
     
 }
+/*------------
+   section 1
+--------------*/
+.home{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+     
+
+}
+.homes{
+    width:60%;
+ padding-top:5% ;
+  
+
+    
+}
+.container{
+  
+    display: flex;
+    padding-top:5% ;
+    /*margin-left:2%*/ ;
+}
+
+.homes-pic img{
+   
+    
+    box-shadow: 5px 7px 20px #FFFFFF;
+    border-radius: 100%;
+    background-color: #fffefe;
+    border:2px solid  #d8d5d5;
+    justify-content: space-evenly;
+    align-items: center;  
+    
+   
+   
+}
+.homes-pic:hover {
+  transform: scale(1.2);
+   border-radius: 25px;
+
+}
+
+#headline{
+    font-size: 60px;
+    font-family:'Cabin', sans-serif; 
+    padding-bottom: 10px;
+    color:#3A3A3A ;
+   
+    
+}
+p{
+    font-size: 16px;
+    padding-bottom: 15px;
+    width: 75%;
+    color:#3A3A3A ;
+    margin-left: 2%;
+}
+
+.button{
+    text-decoration: none;
+    width: 172px;
+    height: 35px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    transition: transform 1s , border-radius 1s;
+    font-family: 'Poppins', sans-serif;
+    border-radius:15px ;
+    
+
+}
+.button:hover {
+    transform: scale(1.4);
+   border-radius: 25px;
+
+}
+
