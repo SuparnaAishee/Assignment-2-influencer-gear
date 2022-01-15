@@ -7,13 +7,11 @@
 ---------------*/
 body {
   margin-top: 10px;
-  /*margin-left: 5%;
-  /* padding-right: 5%; */
+  
   background-color: #ece9e967;
 }
 * {
-  /*margin: 5px;
-  /* padding-left: 5px; */
+ 
   box-sizing: border-box;
 }
 .title {
@@ -64,7 +62,7 @@ nav ul li a {
 .container {
   display: flex;
   padding-top: 5%;
-  /*margin-left:2%*/
+ 
 }
 
 .homes-pic  {
@@ -72,8 +70,8 @@ nav ul li a {
   border-radius: 100%;
   background-color: #fffefe;
   border: 2px solid #d8d5d5;
-  /* justify-content: space-evenly; */
-  /* align-items: center; */
+  
+  
   
 }
 
@@ -334,12 +332,19 @@ div footer {
     width: 100%;
     display: flex;
     flex-direction: column;
+    
+    
   }
+  .homes button{
+    padding-bottom:2% ;
+    Padding-top:2%;
+  }
+  
   .home {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 5%;
+    
   }
   .home a {
     margin-top: -10%;
@@ -350,12 +355,26 @@ div footer {
     font-size: 36px;
     width: 278px;
     height: 138px;
+       
+    
   }
+
+
+
+.home-text{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+
   .home-pic {
-    width: 440px;
+    width: 30%;
     display: flex;
     justify-content: center;
+   
   }
+   
+  
 
   /* --------------------
         Products Section
@@ -398,12 +417,7 @@ div footer {
     height: 154px;
   }
 
-  /* .product-para{
-      
-      text-align: start;
-      
-      padding-left: 10px;
-  } */
+  
 
   .product-text {
     text-align: start;
